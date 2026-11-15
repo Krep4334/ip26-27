@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram id="sequence-reserve" name="Последовательность бронирования">
+    <mxGraphModel page="1" pageWidth="1020" pageHeight="555">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;dashed=1;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="120" as="sourcePoint" />
+            <mxPoint x="150" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;dashed=1;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="120" as="sourcePoint" />
+            <mxPoint x="510" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;dashed=1;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="120" as="sourcePoint" />
+            <mxPoint x="870" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="165" as="sourcePoint" />
+            <mxPoint x="510" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="232" as="sourcePoint" />
+            <mxPoint x="870" y="232" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="299" as="sourcePoint" />
+            <mxPoint x="510" y="299" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="366" as="sourcePoint" />
+            <mxPoint x="870" y="366" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="435" as="sourcePoint" />
+            <mxPoint x="150" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="Последовательность бронирования" style="text;align=left;fontSize=25;fontStyle=1;fontColor=#172940;" vertex="1" parent="1">
+          <mxGeometry x="38" y="18" width="930" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Студент" style="rounded=1;whiteSpace=wrap;fillColor=#eef2ff;strokeColor=#4f46a5;fontColor=#172940;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="75" y="70" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="CLI" style="rounded=1;whiteSpace=wrap;fillColor=#eff6ff;strokeColor=#24568c;fontColor=#172940;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="435" y="70" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="SQLite" style="shape=cylinder3;size=12;whiteSpace=wrap;fillColor=#edf9f5;strokeColor=#317763;fontColor=#172940;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="795" y="70" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="book --student 8 --equipment 1" style="text;align=center;fontSize=15;fontColor=#233b58;" vertex="1" parent="1">
+          <mxGeometry x="220.5" y="137" width="219" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Открыть транзакцию, проверить устройство № 1" style="text;align=center;fontSize=15;fontColor=#233b58;" vertex="1" parent="1">
+          <mxGeometry x="515.0" y="204" width="350" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Устройство существует, бронь уже есть" style="text;align=center;fontSize=15;fontColor=#233b58;" vertex="1" parent="1">
+          <mxGeometry x="549.5" y="271" width="281" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="Завершить транзакцию без записи" style="text;align=center;fontSize=15;fontColor=#233b58;" vertex="1" parent="1">
+          <mxGeometry x="563.5" y="338" width="253" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="stderr: equipment_unavailable · код 4" style="text;align=center;fontSize=15;fontColor=#233b58;" vertex="1" parent="1">
+          <mxGeometry x="203.0" y="407" width="254" height="24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
