@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram id="data" name="Модель данных">
+    <mxGraphModel page="1" pageWidth="1020" pageHeight="430">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="220" as="sourcePoint" />
+            <mxPoint x="375" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="220" as="sourcePoint" />
+            <mxPoint x="645" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4" value="Модель данных" style="text;align=left;fontSize=25;fontStyle=1;fontColor=#172940;" vertex="1" parent="1">
+          <mxGeometry x="38" y="18" width="930" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Студент&#10;id · INTEGER · PK" style="rounded=1;whiteSpace=wrap;fillColor=#eff6ff;strokeColor=#24568c;fontColor=#172940;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="45" y="160" width="250" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Бронь&#10;id · INTEGER · PK&#10;student_id · INTEGER · FK&#10;equipment_id · INTEGER · FK&#10;status · enum (план)" style="rounded=1;whiteSpace=wrap;fillColor=#eff6ff;strokeColor=#24568c;fontColor=#172940;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="375" y="150" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Оборудование&#10;id · INTEGER · PK&#10;name · TEXT" style="rounded=1;whiteSpace=wrap;fillColor=#eff6ff;strokeColor=#24568c;fontColor=#172940;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="725" y="160" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="1 к 0..*" style="text;align=center;fontSize=15;fontColor=#233b58;" vertex="1" parent="1">
+          <mxGeometry x="309.5" y="183" width="51" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="1 к 0..*" style="text;align=center;fontSize=15;fontColor=#233b58;" vertex="1" parent="1">
+          <mxGeometry x="659.5" y="183" width="51" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Одна активная бронь на устройство. В текущей БД статус выводится из наличия записи." style="text;align=center;fontSize=15;fontColor=#233b58;" vertex="1" parent="1">
+          <mxGeometry x="198.5" y="358" width="623" height="24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

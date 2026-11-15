@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram id="activity" name="Деятельность при бронировании">
+    <mxGraphModel page="1" pageWidth="1020" pageHeight="680">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="115" as="sourcePoint" />
+            <mxPoint x="510" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="185" as="sourcePoint" />
+            <mxPoint x="510" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="260" as="sourcePoint" />
+            <mxPoint x="510" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="335" as="sourcePoint" />
+            <mxPoint x="510" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="408" as="sourcePoint" />
+            <mxPoint x="275" y="495" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="275" y="408" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="408" as="sourcePoint" />
+            <mxPoint x="750" y="495" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="408" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="550" as="sourcePoint" />
+            <mxPoint x="420" y="602" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="275" y="602" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="550" as="sourcePoint" />
+            <mxPoint x="600" y="602" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="602" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="Деятельность при бронировании" style="text;align=left;fontSize=25;fontStyle=1;fontColor=#172940;" vertex="1" parent="1">
+          <mxGeometry x="38" y="18" width="930" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Начало" style="rounded=1;whiteSpace=wrap;fillColor=#eef2ff;strokeColor=#4f46a5;fontColor=#172940;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="420" y="70" width="180" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Открыть каталог" style="rounded=1;whiteSpace=wrap;fillColor=#eff6ff;strokeColor=#24568c;fontColor=#172940;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="380" y="135" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Выбрать устройство" style="rounded=1;whiteSpace=wrap;fillColor=#eff6ff;strokeColor=#24568c;fontColor=#172940;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="380" y="210" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="Отправить команду book" style="rounded=1;whiteSpace=wrap;fillColor=#eff6ff;strokeColor=#24568c;fontColor=#172940;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="380" y="285" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Доступно?" style="rhombus;whiteSpace=wrap;fillColor=#fff7e8;strokeColor=#8b642a;fontColor=#172940;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="425" y="360" width="170" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Получить номер брони" style="rounded=1;whiteSpace=wrap;fillColor=#eff6ff;strokeColor=#24568c;fontColor=#172940;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="150" y="495" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="Получить сообщение об ошибке" style="rounded=1;whiteSpace=wrap;fillColor=#fff1f2;strokeColor=#a64857;fontColor=#172940;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="625" y="495" width="250" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="Конец" style="rounded=1;whiteSpace=wrap;fillColor=#eef2ff;strokeColor=#4f46a5;fontColor=#172940;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="420" y="580" width="180" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="Да" style="text;align=center;fontSize=15;fontColor=#233b58;" vertex="1" parent="1">
+          <mxGeometry x="336.0" y="375" width="26" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="Нет" style="text;align=center;fontSize=15;fontColor=#233b58;" vertex="1" parent="1">
+          <mxGeometry x="656.5" y="375" width="33" height="24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram id="sequence-list" name="Последовательность просмотра броней">
+    <mxGraphModel page="1" pageWidth="1020" pageHeight="555">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;dashed=1;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="120" as="sourcePoint" />
+            <mxPoint x="150" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;dashed=1;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="120" as="sourcePoint" />
+            <mxPoint x="510" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;dashed=1;endArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="120" as="sourcePoint" />
+            <mxPoint x="870" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="165" as="sourcePoint" />
+            <mxPoint x="510" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="245" as="sourcePoint" />
+            <mxPoint x="870" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="325" as="sourcePoint" />
+            <mxPoint x="510" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" edge="1" parent="1" style="strokeColor=#53657b;strokeWidth=2;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="405" as="sourcePoint" />
+            <mxPoint x="150" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="Последовательность просмотра броней" style="text;align=left;fontSize=25;fontStyle=1;fontColor=#172940;" vertex="1" parent="1">
+          <mxGeometry x="38" y="18" width="930" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Студент" style="rounded=1;whiteSpace=wrap;fillColor=#eef2ff;strokeColor=#4f46a5;fontColor=#172940;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="75" y="70" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="CLI" style="rounded=1;whiteSpace=wrap;fillColor=#eff6ff;strokeColor=#24568c;fontColor=#172940;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="435" y="70" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="SQLite" style="shape=cylinder3;size=12;whiteSpace=wrap;fillColor=#edf9f5;strokeColor=#317763;fontColor=#172940;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="795" y="70" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="my-bookings --student 7" style="text;align=center;fontSize=15;fontColor=#233b58;" vertex="1" parent="1">
+          <mxGeometry x="244.0" y="137" width="172" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="Выбрать брони со student_id = 7" style="text;align=center;fontSize=15;fontColor=#233b58;" vertex="1" parent="1">
+          <mxGeometry x="572.5" y="217" width="235" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Бронь № 1 для устройства № 1" style="text;align=center;fontSize=15;fontColor=#233b58;" vertex="1" parent="1">
+          <mxGeometry x="577.0" y="297" width="226" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="stdout: массив из одной брони · код 0" style="text;align=center;fontSize=15;fontColor=#233b58;" vertex="1" parent="1">
+          <mxGeometry x="194.5" y="377" width="271" height="24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
