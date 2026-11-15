@@ -19,7 +19,7 @@ python -m src.equipment [--db PATH] book --student STUDENT_ID --equipment EQUIPM
 ## Результат
 
 - **Код 0.** В stdout приходит JSON-объект в UTF-8 с целыми полями `id`, `student_id`, `equipment_id` и строковым полем `status` со значением `reserved`. В SQLite появляется ровно одна бронь, устройство становится недоступным.
-- **Код 4.** В stderr приходит JSON `{"error": "equipment_unavailable"}`. Активная бронь уже есть, поэтому новая запись не создаётся.
+- **Код 4.** В stderr приходит JSON `{"error": "equipment_unavailable"}`, stdout остаётся пустым. Активная бронь уже есть, поэтому новая запись не создаётся.
 
 Также CLI возвращает код 2 и текст диагностики argparse при некорректных аргументах, код 3 с JSON `{"error": "equipment_not_found"}` для неизвестного устройства или код 5 с JSON `{"error": "database_error"}` при ошибке SQLite.
 
