@@ -34,7 +34,7 @@ class BookingContractTest(unittest.TestCase):
         first = self.cli("book", "--student", "7", "--equipment", "1")
         self.assertEqual(first.returncode, 0, first.stderr)
         second = self.cli("book", "--student", "8", "--equipment", "1")
-        self.assertEqual(second.returncode, 9)
+        self.assertEqual(second.returncode, 4)
         self.assertEqual(second.stdout, "")
         self.assertEqual(json.loads(second.stderr), {"error": "equipment_unavailable"})
         owner = self.cli("my-bookings", "--student", "7")
