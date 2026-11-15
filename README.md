@@ -36,3 +36,14 @@ python -m src.equipment --db demo.sqlite3 my-bookings --student 7
 | NFR-3 | Одна активная бронь на устройство | Обязательно | Есть для текущих статусов |
 
 [Спецификация требований и диаграммы](docs/01-requirements.md)
+
+## Автоматические проверки
+
+```sh
+python -m pip install -r requirements.txt
+python -m unittest discover -s tests -v
+```
+
+Тесты T-1 и T-2 проверяют успех и отказ из [контракта бронирования](docs/interface-contract.md) на временных базах. GitHub Actions при открытии PR в `main` и при добавлении коммитов запускает те же тесты и отдельно проверяет запуск каталога.
+
+[Workflow Project checks](.github/workflows/checks.yml)
